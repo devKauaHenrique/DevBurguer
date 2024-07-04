@@ -21,6 +21,10 @@
 
     <link rel="shortcut icon" href="assets/dev-buguer.ico" type="image/x-icon">
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
     <link rel="stylesheet" href="styles/output.css"/>
 
     <title>Dev Burguer - A melhor hamburgueria dev!</title>
@@ -33,28 +37,29 @@
             <img 
             src="./assets/logo-dev-burguer.png"
             alt="Logo DevBurguer"
-            class="w-32 h-32 rounded-full shadow-lg hover:scale-110 duration-200"
+            class="animate-[wiggle_2.5s_infinite] w-32 h-32 rounded-full shadow-lg"
+            data-aos="fade-down" data-aos-delay="300" data-aos-duration="2000"
             >   
-            <h1 class="text-4xl mt-4 mb-2 font-bold text-white">
+            <h1 class="text-4xl mt-4 mb-2 font-bold text-white" data-aos="fade-up" data-aos-delay="300" data-aos-duration="2000">
                 Dev Burguer
             </h1>
 
-            <span class="text-white font-medium">
+            <span class="text-white font-medium" data-aos="fade-up" data-aos-delay="400" data-aos-duration="2000">
                 Rua Rio de Janeiro 23, Itaquaquecetuba - SP
             </span>
 
-            <div class="bg-green-600 px-4 py-1 rounded-lg mt-5" id="date-span">
+            <div class="bg-green-600 px-4 py-1 rounded-lg mt-5" id="date-span" data-aos="fade-up" data-aos-delay="500" data-aos-duration="2000">
                 <span class="text-white font-medium">Seg à Dom - 18:00 às 23:00</span>
             </div>
         </div>
     </header>
     <!--FIM DO HEADER-->
 
-    <h2 class="text-2xl md:text-3xl font-bold text-center mt-9 mb-6">
+    <h2 class="text-2xl md:text-3xl font-bold text-center mt-9 mb-6" data-aos="fade-up" data-aos-delay="400" data-aos-duration="2000">
         Conheça nosso cardápio
     </h2>
 
-    <div class="mx-auto max-w-7xl px-2 my-2">
+    <div class="mx-auto max-w-7xl px-2 my-2" data-aos="fade-up" data-aos-delay="400" data-aos-duration="2000">
         <h2 class="font-bold text-3xl"> 
             Lanches
         </h2>
@@ -66,7 +71,7 @@
         <main class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16"> 
 
             <!--PRODUTO ITEM-->
-            <div class="flex gap-2">
+            <div class="flex gap-2" data-aos="fade-up" data-aos-delay="400" data-aos-duration="2000">
                 <img 
                 src="./assets/hamb-1.png" 
                 alt="Hamburguer Smash"
@@ -92,7 +97,7 @@
             <!--FIM PRODUTO ITEM-->
 
             <!--PRODUTO ITEM-->
-            <div class="flex gap-2">
+            <div class="flex gap-2" data-aos="fade-up" data-aos-delay="400" data-aos-duration="2000">
                 <img 
                 src="./assets/hamb-2.png" 
                 alt="Hamburguer Duplo"
@@ -118,7 +123,7 @@
             <!--FIM PRODUTO ITEM-->
 
             <!--PRODUTO ITEM-->
-            <div class="flex gap-2">
+            <div class="flex gap-2" data-aos="fade-up" data-aos-delay="400" data-aos-duration="2000">
                 <img 
                 src="./assets/hamb-3.png" 
                 alt="Hamburguer Salad"
@@ -144,7 +149,7 @@
             <!--FIM PRODUTO ITEM-->
 
             <!--PRODUTO ITEM-->
-            <div class="flex gap-2">
+            <div class="flex gap-2" data-aos="fade-up" data-aos-delay="400" data-aos-duration="2000">
                 <img 
                 src="./assets/hamb-4.png" 
                 alt="Hamburguer da Casa"
@@ -170,7 +175,7 @@
             <!--FIM PRODUTO ITEM-->
 
             <!--PRODUTO ITEM-->
-            <div class="flex gap-2">
+            <div class="flex gap-2" data-aos="fade-up" data-aos-delay="400" data-aos-duration="2000">
                 <img 
                 src="./assets/hamb-5.png" 
                 alt="Hamburguer da Casa"
@@ -196,7 +201,7 @@
             <!--FIM PRODUTO ITEM-->
 
             <!--PRODUTO ITEM-->
-            <div class="flex gap-2">
+            <div class="flex gap-2" data-aos="fade-up" data-aos-delay="400" data-aos-duration="2000">
                 <img 
                 src="./assets/hamb-6.png" 
                 alt="Hamburguer da Casa"
@@ -222,7 +227,7 @@
             <!--FIM PRODUTO ITEM-->
 
             <!--PRODUTO ITEM-->
-            <div class="flex gap-2">
+            <div class="flex gap-2" data-aos="fade-up" data-aos-delay="400" data-aos-duration="2000">
                 <img 
                 src="./assets/hamb-7.png" 
                 alt="Hamburguer da Casa"
@@ -248,7 +253,7 @@
             <!--FIM PRODUTO ITEM-->
 
             <!--PRODUTO ITEM-->
-            <div class="flex gap-2">
+            <div class="flex gap-2" data-aos="fade-up" data-aos-delay="400" data-aos-duration="2000">
                 <img 
                 src="./assets/hamb-8.png" 
                 alt="Hamburguer da Casa"
@@ -275,7 +280,7 @@
 
         </main>
 
-        <div class="mx-auto max-w-7xl px-2 my-2">
+        <div class="mx-auto max-w-7xl px-2 my-2" data-aos="fade-up" data-aos-delay="400" data-aos-duration="2000">
             <h2 class="font-bold text-3xl"> 
                 Bebidas
             </h2>
@@ -285,7 +290,7 @@
         <div class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16" id="menu">
 
             <!--BEBIDA ITEM-->
-            <div class="flex gap-2 w-full">
+            <div class="flex gap-2 w-full" data-aos="fade-up" data-aos-delay="400" data-aos-duration="2000">
                 <img 
                 src="./assets/refri-1.png" 
                 alt="Coca Lata"
@@ -310,7 +315,7 @@
             <!--FIM BEBIDA ITEM-->
 
             <!--BEBIDA ITEM-->
-            <div class="flex gap-2 w-full">
+            <div class="flex gap-2 w-full" data-aos="fade-up" data-aos-delay="400" data-aos-duration="2000">
                 <img 
                 src="./assets/refri-2.png" 
                 alt="Guaraná Lata"
@@ -335,7 +340,7 @@
             <!--FIM BEBIDA ITEM-->
 
             <!--BEBIDA ITEM-->
-            <div class="flex gap-2 w-full">
+            <div class="flex gap-2 w-full" data-aos="fade-up" data-aos-delay="400" data-aos-duration="2000">
                 <img 
                 src="./assets/refri-3.png" 
                 alt="Guaraná Lata"
@@ -360,7 +365,7 @@
             <!--FIM BEBIDA ITEM-->
 
             <!--BEBIDA ITEM-->
-            <div class="flex gap-2 w-full">
+            <div class="flex gap-2 w-full" data-aos="fade-up" data-aos-delay="400" data-aos-duration="2000">
                 <img 
                 src="./assets/refri-4.png" 
                 alt="Guaraná Lata"
@@ -385,7 +390,7 @@
             <!--FIM BEBIDA ITEM-->
 
             <!--BEBIDA ITEM-->
-            <div class="flex gap-2 w-full">
+            <div class="flex gap-2 w-full" data-aos="fade-up" data-aos-delay="400" data-aos-duration="2000">
                 <img 
                 src="./assets/refri-5.png" 
                 alt="Guaraná Lata"
@@ -410,7 +415,7 @@
             <!--FIM BEBIDA ITEM-->
 
             <!--BEBIDA ITEM-->
-            <div class="flex gap-2 w-full">
+            <div class="flex gap-2 w-full" data-aos="fade-up" data-aos-delay="400" data-aos-duration="2000">
                 <img 
                 src="./assets/refri-6.png" 
                 alt="Guaraná Lata"
@@ -435,7 +440,7 @@
             <!--FIM BEBIDA ITEM-->
 
             <!--BEBIDA ITEM-->
-            <div class="flex gap-2 w-full">
+            <div class="flex gap-2 w-full" data-aos="fade-up" data-aos-delay="400" data-aos-duration="2000">
                 <img 
                 src="./assets/refri-7.png" 
                 alt="Guaraná Lata"
@@ -460,7 +465,7 @@
             <!--FIM BEBIDA ITEM-->
 
             <!--BEBIDA ITEM-->
-            <div class="flex gap-2 w-full">
+            <div class="flex gap-2 w-full" data-aos="fade-up" data-aos-delay="400" data-aos-duration="2000">
                 <img 
                 src="./assets/refri-8.png" 
                 alt="Guaraná Lata"
@@ -532,6 +537,7 @@
     <!--FIM BUTTON CART FOOTER-->
     
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="aos.js"></script>
     <script src="script.js"></script>
 </body>
 </html>

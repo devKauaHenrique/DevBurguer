@@ -997,6 +997,76 @@ video {
   transform: none;
 }
 
+@keyframes wiggle {
+  0%, 100% {
+    transform: translateY(0) scale(1);
+  }
+
+  50% {
+    transform: translateY(-8px) scale(1.1);
+  }
+}
+
+.animate-\[wiggle_1s_ease-in-out_infinite\] {
+  animation: wiggle 1s ease-in-out infinite;
+}
+
+@keyframes wiggle {
+  0%, 100% {
+    transform: translateY(0) scale(1);
+  }
+
+  50% {
+    transform: translateY(-8px) scale(1.1);
+  }
+}
+
+.animate-\[wiggle_0\.8s_infinite\] {
+  animation: wiggle 0.8s infinite;
+}
+
+@keyframes wiggle {
+  0%, 100% {
+    transform: translateY(0) scale(1);
+  }
+
+  50% {
+    transform: translateY(-8px) scale(1.1);
+  }
+}
+
+.animate-\[wiggle_1\.5s_infinite\] {
+  animation: wiggle 1.5s infinite;
+}
+
+@keyframes wiggle {
+  0%, 100% {
+    transform: translateY(0) scale(1);
+  }
+
+  50% {
+    transform: translateY(-8px) scale(1.1);
+  }
+}
+
+.animate-\[wiggle_1\.8s_infinite\] {
+  animation: wiggle 1.8s infinite;
+}
+
+@keyframes wiggle {
+  0%, 100% {
+    transform: translateY(0) scale(1);
+  }
+
+  50% {
+    transform: translateY(-8px) scale(1.1);
+  }
+}
+
+.animate-\[wiggle_2\.5s_infinite\] {
+  animation: wiggle 2.5s infinite;
+}
+
 .touch-auto {
   touch-action: auto;
 }
@@ -2729,24 +2799,14 @@ body{
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.hover\:bg-red-800:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(153 27 27 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-green-700:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(21 128 61 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-green-800:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(22 101 52 / var(--tw-bg-opacity));
-}
-
 .hover\:bg-green-600:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(22 163 74 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-red-800:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(153 27 27 / var(--tw-bg-opacity));
 }
 
 .hover\:font-bold:hover {
